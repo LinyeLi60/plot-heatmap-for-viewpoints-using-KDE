@@ -97,7 +97,7 @@ inp = np.array(inp)
 c = inp[:, 2].reshape((n_phi, n_theta)).T
 
 # Set colours and render
-fig = plt.figure()
+fig = plt.figure(figsize=(10, 8))
 ax = fig.add_subplot(111, projection='3d')
 
 # normalize the value
